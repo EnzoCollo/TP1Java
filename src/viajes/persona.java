@@ -11,7 +11,7 @@ public class persona {
     }
     public void mostrarPasaporte(){
         if(pasaporte != null) {
-            System.out.println("Pasaporte: " + pasaporte.getnumero());
+            System.out.println(nombre + ": Pasaporte: " + pasaporte.getnumero());
         } else {
             System.out.println(nombre + "No tiene pasaporte.");
         }

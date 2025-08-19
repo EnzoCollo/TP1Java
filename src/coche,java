@@ -1,0 +1,21 @@
+
+public class coche(){
+    private String marca;
+    private int modelo;
+    public void coche(String marca, int modelo){
+        this.marca = marca;
+        this.modelo = modelo;
+    }
+    publi String getmarca() {
+        return marca;
+    }
+    Public void setmarca(String marca) {
+        this.marca = marca;
+    }
+    Public int getmodelo() {
+        return modelo;
+    }
+    Public void setmodelo(int modelo) {
+        this.modelo = modelo;
+    }
+}

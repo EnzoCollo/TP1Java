@@ -1,4 +1,4 @@
-package src;
+package src.viajes;
 
 public class persona {
     private String nombre;
